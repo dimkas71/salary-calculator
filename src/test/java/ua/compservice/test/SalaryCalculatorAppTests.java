@@ -1,4 +1,4 @@
-package ua.compservice.compservicesalarycalculator;
+package ua.compservice.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CompserviceSalaryCalculatorApplicationTests {
+public class SalaryCalculatorAppTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,12 +1,12 @@
-package ua.compservice.compservicesalarycalculator;
+package ua.compservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CompserviceSalaryCalculatorApplication {
+public class SalaryCalculatorApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CompserviceSalaryCalculatorApplication.class, args);
+		SpringApplication.run(SalaryCalculatorApp.class, args);
 	}
 }
