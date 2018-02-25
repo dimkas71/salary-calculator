@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Insert title here</title>
+</head>
+<body class="w3-container">
+	<h1 class="w3-center">Public holidays list</h1>
+  
+    <table class="w3-table-all w3-card">
+      <tr class="w3-green">
+        <th>ID</th>
+        <th class="w3-center">DESCRIPTION</th>
+        <th>HOLIDAY'S DATE</th>
+      </tr>
+      <tr class = "w3-hover-green" th:each="holiday : ${holidays}">
+        <td class="w3-left" th:text="${holiday.id}">1</td>
+        <td class="w3-center" th:text="${holiday.description}">New Year</td>
+        <td class="w3-right" th:text="${holiday.holiday}">01/02/2018</td>
+      </tr>
+    </table>	
+</body>
+</html>
